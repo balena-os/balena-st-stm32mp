@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.115.3+rev3
+## (2023-05-30)
+
+* Update layers/meta-rust to e3082dc0728023b121d648da4c5c856943b5e425 [Self-hosted Renovate Bot]
+
 # v2.115.3+rev2
 ## (2023-05-30)
 
