@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.115.3+rev2
+## (2023-05-30)
+
+* Update layers/meta-st-stm32mp to 73632fb844b6ebbef2a9d2acc7cc4783083a14a3 [Self-hosted Renovate Bot]
+
 # v2.115.3+rev1
 ## (2023-05-30)
 

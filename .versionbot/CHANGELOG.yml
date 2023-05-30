@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update layers/meta-st-stm32mp to 73632fb844b6ebbef2a9d2acc7cc4783083a14a3
+      hash: 54a5d4cfaab1e999458d5addbf7e97fb5d6872a2
+      body: Update layers/meta-st-stm32mp
+      footer:
+        Changelog-entry: Update layers/meta-st-stm32mp to
+          73632fb844b6ebbef2a9d2acc7cc4783083a14a3
+        changelog-entry: Update layers/meta-st-stm32mp to
+          73632fb844b6ebbef2a9d2acc7cc4783083a14a3
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.115.3+rev2
+  title: ""
+  date: 2023-05-30T18:47:09.625Z
+- commits:
     - subject: Update layers/meta-openembedded to
         116bfe8d5e5851e7fc5424f40da8691a19c5b5ee
       hash: 768f143c5eba1ed0c2062f927ff6e0ce19ca9e78
