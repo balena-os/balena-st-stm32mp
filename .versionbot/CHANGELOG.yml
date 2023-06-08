@@ -1,4 +1,39 @@
 - commits:
+    - subject: Update layers/meta-balena to 7c31e98312e50f7cc6380b00701c6ed8ff3da216
+      hash: 573622989ac8d8f4af754ebcac99f4e5d09a5380
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 7c31e98312e50f7cc6380b00701c6ed8ff3da216
+        changelog-entry: Update layers/meta-balena to 7c31e98312e50f7cc6380b00701c6ed8ff3da216
+      author: Self-hosted Renovate Bot
+      nested: []
+    - subject: Remove pull_request_target event run for ESR targets
+      hash: 25a701603391b8c0198d511ece67a419ac0edd12
+      body: >
+        Backporting to ESR branches hits a flowzone error as both pull_request
+
+        and pull_request_target run and this only works for master.
+
+
+        Removing the pull_request_target run for ESR branches fixes this, but
+
+        also removes the possibility of external pull requests into ESR branches,
+
+        which we don't actually need.
+
+
+        [skip ci]
+      footer:
+        Changelog-entry: Remove pull_request_target event run for ESR targets
+        changelog-entry: Remove pull_request_target event run for ESR targets
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.115.5
+  title: ""
+  date: 2023-06-08T10:32:06.387Z
+- commits:
     - subject: Update layers/meta-balena to f06ec1fc32f6c5baa0c734eaf9e94ee88f7993bb
       hash: 5c2fc3b5e1d8c4d8918098b4c68183dd99154fd6
       body: Update layers/meta-balena
